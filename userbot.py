@@ -21,10 +21,14 @@ async def auto_comment(event):
     print('''
 New Post!
     ''')
-    await client.send_message(event.chat_id, random.choice(COMMENT_TEXT), comment_to=event.id)
-    print('''
+    try: # for the post those doesn't have comments section or deleted amd such.
+        await client.send_message(event.chat_id, random.choice(COMMENT_TEXT), comment_to=event.id)
+        print('''
 Commented!
     ''')
+
+    except:
+        pass
 
 print('Started!')
 client.run_until_disconnected()
