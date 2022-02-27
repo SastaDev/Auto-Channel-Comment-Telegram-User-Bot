@@ -10,13 +10,13 @@ API_ID = config['API_ID']
 API_HASH = config['API_HASH']
 STRING_SESSION = config['STRING_SESSION']
 
-client = TelegramClient(StringSession(STRING_SESSION), api_id, api_hash).start()
+client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH).start()
 
 CHANNEL_ID = config['CHANNEL_ID']
 
 COMMENT_TEXT = config['COMMENT_TEXT']
 
-@client.on(events.NewMessage(chats=channel_id))
+@client.on(events.NewMessage(chats=CHANNEL_ID))
 async def auto_comment(event):
     print('''
 New Post!
