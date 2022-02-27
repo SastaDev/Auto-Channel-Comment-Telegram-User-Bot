@@ -1,0 +1,22 @@
+{
+      "name": "Auto Channel Comment Telegram UserBot",
+      "description": " A telegram user-bot to automacially comment on channel at new posts.",
+      "keywords": [
+         "telegram",
+         "userbot",
+         "auto",
+         "channel",
+         "comment"
+      ],
+    
+   "logo": "",  
+   "repository": "https://github.com/ShalmonAnandMate/Auto-Channel-Comment-Telegram-User-Bot",
+   "addons": [
+          {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ]
+}
