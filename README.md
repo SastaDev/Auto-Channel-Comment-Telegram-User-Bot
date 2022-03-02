@@ -3,10 +3,10 @@ A telegram userbot to automatically comment in channel on new posts.
 
 Programming Language: Python Version 3.6 or above
 
-Libraby: Pyrogram (t.me/pyrogram)
-Support: t.me/SastaSupport
-Updates Channel: t.me/SastaNetwork
+Libraby: Pyrogram (https://telegram.me/pyrogram)
+Support: https://telegram.me/SastaSupport
+Updates Channel: https://telegram.me/SastaNetwork
 
-Created by: t.me/SastaDev
+Created by: https://telegram.me/SastaDev
 
 © Sasta Network 2021-2022, Inc.
