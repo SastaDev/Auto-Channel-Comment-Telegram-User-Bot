@@ -2,9 +2,9 @@
 A telegram userbot to automatically comment in channel on new posts.
 
 <h1>Features:</h1>
-• 1. Multiple Languages Support.
-• 2. Can get channel id.
-• 3. Can set random text for channels.
+<p>• 1. Multiple Languages Support.</p>
+<p>• 2. Can get channel id.</p>
+<p>• 3. Can set random text for channels.</p>
 • 4. Can add or remove, id of targeted channel.
 • 5. Fast & Easy!
 
