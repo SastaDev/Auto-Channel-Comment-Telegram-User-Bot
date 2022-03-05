@@ -1,0 +1,25 @@
+{
+    "ENGLISH": {
+        "START_MSG": "Hello, this is auto channel-commenting userbot.\n\n<b>Help Chat:</b> @HelpSupportChat\n\n<b>GitHub Repo:</b> <a href='https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot'>Click Here</a>.\n\n<b>Programmed By:</b> @SastaDev\n\n<b>Powered By:</b> @SastaNetwork\n\n © <a href='https;//telegram.me/SastaNetwork'>SastaNetwork</a> 2022, Inc.",
+        "INVALID": "<b>❌ Invalid.</b>",
+        "HELP_MSG": "To use the auto comment user bot, you need to add ID of channel(s) into config.json at CHANNEL_ID. You can get id of any channel by sending <code>.id</code> feature of program.\n\n<b>Usage:</b>\n.id (reply to channel's message)\n.id username/link of the channel.",
+        "FEATURES": "<b>FEATURES:</b>\n1. <code>.id (to get id of channel(s))</code>",
+        "CHANGE_LANG": "• To change language, you need to send <code>.setlang YOUR LANGUAGE</code>\n\n<b>Example:</b>\n<code>.setlang hindi</code>\n\n<b>OR</b>\nchange language to your choice of language by editing in config.json.",
+        "TOTAL_COMMANDS": "<b>Total Commands:</b>\n1. <code>.start</code>\n2. <code>.help</code>\n3. <code>.id</code>\n4. <code>.commands</code> <i>(this message)</i>\n5. <code>.setlang</code>\n6. <code>.features</code>",
+        "CHANNEL_ID_NOT_INVALID": "<b>⚠️ Channel ID is not valid!</b>",
+        "ADDED_CHANNEL_ID": "<b>Added channel ID successfully!</b>\n\n<i>It'll be now used for auto-commenting!<i>",
+        "REMOVED_CHANNEL_ID": "<b>Removed channel ID successfully!</b>\n\n<i>It'll be now no longer used for auto-commenting!</i>",
+        "CHANNEL_ID_ALREADY_ADDED": "<b>• This channel ID is already added.</b>",
+        "CHANNEL_ID_NOT_EXIST": "<b>• This channel ID is not added.</b>",
+        "REPLY_TO_CHANNEL_MSG_1": "• Reply to channel's message while doing this.\nOR\n.id username/link of the channel.",
+        "REPLY_TO_CHANNEL_MSG_2": "• Reply to channel's message while doing this.\nOR\n.add username/link of the channel.",
+        "REPLY_TO_CHANNEL_MSG_3": "• Reply to channel's message while doing this\nOR\n.remove username/link of the channel.",
+        "ID_USAGE": "<b>Usage:</b>\n.id (reply to a channel's message)\n.id username/link of the channel.",
+        "LANG_NOT_AVAILABLE": "Sorry, this language is <b>not</b>available yet!\nYou can add/translate it by contacting to @SastaDev.\n<b>Thank You!</b>",
+        "LANG_SETTED": "Done! New language has been set!",
+        "SETLANG_USAGE": "<b>Usage:</b>\n.setlang language\nWhere 'language' is your language.",
+        "NEW_POST": "New post on {}",
+        "COMMENTED": "Commented on {}",
+        "FLOOD_WAIT_ERROR": "Flood Wait!\nSleeping for {} ."
+    }
+}
