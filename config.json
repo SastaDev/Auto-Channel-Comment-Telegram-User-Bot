@@ -4,4 +4,6 @@
     "STRING_SESSION": "",
     "CHANNEL_ID": [],
     "COMMENT_TEXT": ["1st", "First", "I'm first"]
+    "LANGUAGE": "ENGLISH",
+    "AVAILABLE_LANGUAGES": ["ENGLISH"]
 }
