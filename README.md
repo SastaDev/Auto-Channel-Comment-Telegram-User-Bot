@@ -1,7 +1,7 @@
 # Auto-Channel-Comment-Telegram-User-Bot
 A telegram userbot to automatically comment in channel on new posts.
 
-<b>Features:</b>
+<h1>Features:</h1>
 • 1. Multiple Languages Support.
 • 2. Can get channel id.
 • 3. Can set random text for channels.
