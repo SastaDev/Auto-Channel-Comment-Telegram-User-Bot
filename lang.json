@@ -20,6 +20,7 @@
         "SETLANG_USAGE": "<b>Usage:</b>\n.setlang language\nWhere 'language' is your language.",
         "NEW_POST": "New post on {}",
         "COMMENTED": "Commented on {}",
-        "FLOOD_WAIT_ERROR": "Flood Wait!\nSleeping for {} ."
+        "FLOOD_WAIT_ERROR": "Flood Wait!\nSleeping for {} .",
+        "STARTED_BOT: "STARTED!"
     }
 }
