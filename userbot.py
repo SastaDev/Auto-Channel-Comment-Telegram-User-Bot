@@ -193,5 +193,5 @@ async def auto_comment(event):
         print(lang['FLOOD_WAIT_ERROR'].format(e.seconds))
         time.sleep(e.seconds)
 
-print('Started!')
+print(lang['STARTED_MSG'])
 client.run_until_disconnected()
