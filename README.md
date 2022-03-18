@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<head>
 <style>
 .btn {
     color: white;
@@ -5,6 +7,8 @@
 }
 </style>
 
+</head>
+<body>
 # Auto-Channel-Comment-Telegram-User-Bot
 A telegram userbot to automatically comment in channel on new posts.
 <h4>Version: 2.0</h4>
@@ -30,3 +34,5 @@ A telegram userbot to automatically comment in channel on new posts.
 <b>Created by:</b> <a href="https://telegram.me/SastaDev">Sasat Dev</a>.
 
 © <a href="https://telegram.me/SastaNetwork">Sasta Network</a> 2021-2022, Inc.
+</body>
+</html>
