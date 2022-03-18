@@ -6,7 +6,7 @@ A telegram userbot to automatically comment in channel on new posts.
 <a href="https://heroku.com/deploy?template=https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot/">
 <img src="https://logos-download.com/wp-content/uploads/2016/09/Heroku_logo.png">
 </img>
-<a href="https://heroku.com/deploy?template=https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot/">Deploy to heroku (Click Here or on upper image)></a>
+<a href="https://heroku.com/deploy?template=https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot/">Deploy to heroku</a>
 </a>
 
 <h1>Features:</h1>
