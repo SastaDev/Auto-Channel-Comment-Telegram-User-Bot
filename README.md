@@ -1,6 +1,15 @@
+<style>
+.btn {
+    color: white;
+    background-color: Pink;
+}
+</style>
+
 # Auto-Channel-Comment-Telegram-User-Bot
 A telegram userbot to automatically comment in channel on new posts.
 <h4>Version: 2.0</h4>
+
+<a href="https://heroku.com/deploy?template=https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot/">Deploy To Heroku</a>
 
 <h1>Features:</h1>
 <p>• 1. Multiple Languages Support.</p>
