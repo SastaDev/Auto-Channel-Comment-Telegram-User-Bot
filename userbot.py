@@ -186,12 +186,14 @@ async def set_language(event):
 @client.on(events.NewMessage(chats=CHANNEL_ID))
 async def auto_comment(event):
     print(lang['NEW_POST'].format(event.peer_id.channel_id))
-    try: # for the post those doesn't have comments section or deleted and such.
+    try: # for the post those who doesn't have comments section or deleted and such.
         await client.send_message(event.chat_id, random.choice(COMMENT_TEXT), comment_to=event.id)
         print(lang['COMMENTED'].format(event.peer_id.channel_id))
     except errors.FloodWaitError as e:
         print(lang['FLOOD_WAIT_ERROR'].format(e.seconds))
         time.sleep(e.seconds)
+    except Exception as e:
+        print(f"<b>lang['ERROR_1']</b>\n<code>{e}</code>")
 
 print(lang['STARTED_MSG'])
 client.run_until_disconnected()
