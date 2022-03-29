@@ -27,4 +27,4 @@ A telegram userbot to automatically comment in channel on new posts.
 
 <b>Created By:</b> <a href="https://telegram.me/SastaDev">Sasat Dev</a>.
 
-© <a href="https://telegram.me/SastaNetwork">Sasta Network</a> 2021-2022, Inc.
+© <a href="https://telegram.me/SastaNetwork">Sasta Network</a> 2022-present, Inc.
