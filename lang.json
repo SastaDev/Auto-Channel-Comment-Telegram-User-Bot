@@ -22,6 +22,7 @@
         "COMMENTED": "Commented on {}",
         "FLOOD_WAIT_ERROR": "Flood Wait!\nSleeping for {} .",
         "STARTED_BOT": "STARTED!",
-        "ERROR_1": "ERROR:"
+        "ERROR_1": "ERROR:",
+        "ERROR_WHILE_POSTING": "ERROR WHILE POSTING: "
     }
 }
