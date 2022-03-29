@@ -17,7 +17,7 @@ A telegram userbot to automatically comment in channel on new posts.
 <p>• 5. Can add or remove, id of targeted channel.</p>
 <p>• 6. Easy & Fast!</p>
 
-<b>Programming Language:</b> Python Version 3.6 or above
+<b>Programming Language:</b> Python Version 3.6 or above.
 
 <b>Libraby:</b> <a href="https://telegram.me/telethonupdates">Telethon</a>.
 
@@ -25,6 +25,6 @@ A telegram userbot to automatically comment in channel on new posts.
 
 <b>Updates Channel:</b> <a href="https://telegram.me/SastaNetwork">Sasta Network</a>.
 
-<b>Created by:</b> <a href="https://telegram.me/SastaDev">Sasat Dev</a>.
+<b>Created By:</b> <a href="https://telegram.me/SastaDev">Sasat Dev</a>.
 
 © <a href="https://telegram.me/SastaNetwork">Sasta Network</a> 2021-2022, Inc.
