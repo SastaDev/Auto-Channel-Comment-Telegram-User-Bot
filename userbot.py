@@ -18,8 +18,6 @@ client = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH).start()
 
 client.parse_mode = 'html'
 
-CHANNEL_ID = config['CHANNEL_ID']
-
 COMMENT_TEXT = config['COMMENT_TEXT']
 
 _lang = config['LANGUAGE']
@@ -31,6 +29,9 @@ def CONFIG_FUNC():
     j = json.loads(read)
     file.close()
     return j
+
+global CHANNEL_ID
+CHANNEL_ID = CONFIG_FUNC()['CHANNEL_ID']
 
 def add_channel_id(channel_id):
     file = open('config.json', 'r')
@@ -89,6 +90,7 @@ async def add_channel_id_for_auto_comment(event):
             return
         else:
             add_channel_id(chat.id)
+            CHANNEL_ID.append(chat.id)
             await event.edit(lang['ADDED_CHANNEL_ID'])
     else:
         regex = re.search('^\.add ?(.+)?', event.raw_text)
@@ -107,6 +109,7 @@ async def add_channel_id_for_auto_comment(event):
                 return
             else:
                 add_channel_id(chat.id)
+                CHANNEL_ID.append(chat.id)
                 await event.edit(lang['ADDED_CHANNEL_ID'])
 
 @client.on(events.NewMessage(pattern='^\.remove', incoming=False))
@@ -124,6 +127,7 @@ async def remove_channel_id_for_auto_comment(event):
             return
         else:
             remove_channel_id(chat.id)
+            CHANNEL_ID.remove(chat.id)
             await event.edit(lang['REMOVED_CHANNEL_ID'])
     else:
         regex = re.search('^\.remove ?(.+)?', event.raw_text)
@@ -142,6 +146,7 @@ async def remove_channel_id_for_auto_comment(event):
                 return
             else:
                 remove_channel_id(chat.id)
+                CHANNEL_ID.remove(chat.id)
                 await event.edit(lang['REMOVED_CHANNEL_ID'])
 
 @client.on(events.NewMessage(pattern='^\.id', incoming=False))
@@ -183,17 +188,19 @@ async def set_language(event):
     else:
         await event.edit(lang['SETLANG_USAGE'])
 
-@client.on(events.NewMessage(chats=CHANNEL_ID))
-async def auto_comment(event):
+@client.on(events.NewMessage)
+async def _auto_comment(event):
+    if event.chat_id not in CHANNEL_ID:
+        return
     print(lang['NEW_POST'].format(event.peer_id.channel_id))
-    try: # for the post those who doesn't have comments section or deleted and such.
+    try: # for the post those doesn't have comments section or deleted and such.
         await client.send_message(event.chat_id, random.choice(COMMENT_TEXT), comment_to=event.id)
         print(lang['COMMENTED'].format(event.peer_id.channel_id))
     except errors.FloodWaitError as e:
         print(lang['FLOOD_WAIT_ERROR'].format(e.seconds))
         time.sleep(e.seconds)
     except Exception as e:
-        print(f"<b>lang['ERROR_1']</b>\n<code>{e}</code>")
+        print(lang['ERROR_WHILE_POSTING'] + '\n' + e)
 
 print(lang['STARTED_MSG'])
 client.run_until_disconnected()
