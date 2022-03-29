@@ -19,7 +19,7 @@ A telegram userbot to automatically comment in channel on new posts.
 
 <b>Programming Language:</b> Python Version 3.6 or above
 
-<b>Libraby:</b> <a href="https://telegram.me/telethonupdates">Telethon</a>
+<b>Libraby:</b> <a href="https://telegram.me/telethonupdates">Telethon</a>.
 
 <b>Support:</b> <a href="https://telegram.me/SastaSupport">Help Support Chat</a>.
 
