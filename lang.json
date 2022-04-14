@@ -21,7 +21,7 @@
         "NEW_POST": "New post on {}",
         "COMMENTED": "Commented on {}",
         "FLOOD_WAIT_ERROR": "Flood Wait!\nSleeping for {} .",
-        "STARTED_BOT": "STARTED!",
+        "STARTED_USERBOT": "STARTED!",
         "ERROR_1": "ERROR:",
         "ERROR_WHILE_POSTING": "ERROR WHILE POSTING: "
     }
