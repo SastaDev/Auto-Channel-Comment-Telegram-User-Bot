@@ -202,5 +202,5 @@ async def _auto_comment(event):
     except Exception as e:
         print(lang['ERROR_WHILE_POSTING'] + '\n' + e)
 
-print(lang['STARTED_MSG'])
+print(lang['STARTED_USERBOT'])
 client.run_until_disconnected()
