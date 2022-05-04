@@ -1,0 +1,9 @@
+ on: push
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+          -  name: GitHub Actions Check Out @v2
+             uses: actions/checkout@v2
+          -  name: Auto Telegram Channel Comment User Bot
+             run: sh run.sh
