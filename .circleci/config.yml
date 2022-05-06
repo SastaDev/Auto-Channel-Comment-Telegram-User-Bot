@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  auto-telegram-channel-comment-user-bot:
+    docker:
+      - image: cimg/python:3.10.1
+    steps:
+      - checkout
+      - run:
+          name: "Auto Telegram Channel Comment User-Bot"
+          command: "pip install -r requirements.txt && python3 userbot.py"
+            
+
+workflows:
+  auto-telegram-channel-comment-user-bot-workflow:
+    jobs:
+      - auto-telegram-channel-comment-user-bot
