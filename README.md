@@ -12,6 +12,10 @@ A telegram userbot to automatically comment in channel on new posts.
 <h3> Workflow Support Too</h3>
 Can run on gitHub workflow. check "<a href='https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot/tree/main/.github/workflows'>.github/workflows</a>".
 
+<h3> CircleCL Support Too</h3>
+Can run on CircleCI.com. check "<a href='https://github.com/SastaDev/Auto-Channel-Comment-Telegram-User-Bot/tree/main/.circleci'>.circleci</a>".
+
+
 <h1>Features:</h1>
 <p>• 1. Multiple Languages Support.</p>
 <p>• 2. Can get channel id (.id reply or username/link of the channel).</p>
