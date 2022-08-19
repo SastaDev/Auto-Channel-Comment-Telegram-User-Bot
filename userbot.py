@@ -7,7 +7,7 @@ import re
 
 file_1 = open('config.json').read()
 config = json.loads(file_1)
-file_2 = open('lang.json').read()
+file_2 = open('lang.json', encoding='utf-8').read()
 lang = json.loads(file_2)
 
 API_ID = config['API_ID']
